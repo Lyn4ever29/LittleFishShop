@@ -1,0 +1,11 @@
+server:
+  port: 7001 #端口号
+
+spring:
+  application:
+    name: goods-web
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
