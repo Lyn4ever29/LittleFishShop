@@ -1,7 +1,7 @@
 package cn.lyn4ever.goods.web.controller;
 
 import cn.lyn4ever.entity.TopAds;
-import cn.lyn4ever.services.goods.service.IGoodsService;
+import cn.lyn4ever.goods.web.service.IGoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

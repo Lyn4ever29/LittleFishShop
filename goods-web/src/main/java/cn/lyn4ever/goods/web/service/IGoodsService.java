@@ -1,4 +1,4 @@
-package cn.lyn4ever.services.goods.service;
+package cn.lyn4ever.goods.web.service;
 
 import cn.lyn4ever.entity.TopAds;
 

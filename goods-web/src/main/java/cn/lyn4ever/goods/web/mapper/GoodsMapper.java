@@ -1,4 +1,4 @@
-package cn.lyn4ever.services.goods.mapper;
+package cn.lyn4ever.goods.web.mapper;
 
 import cn.lyn4ever.entity.TopAds;
 import org.apache.ibatis.annotations.Mapper;

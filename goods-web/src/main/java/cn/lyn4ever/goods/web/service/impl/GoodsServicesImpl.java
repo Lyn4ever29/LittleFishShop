@@ -1,8 +1,8 @@
-package cn.lyn4ever.services.goods.service.impl;
+package cn.lyn4ever.goods.web.service.impl;
 
 import cn.lyn4ever.entity.TopAds;
-import cn.lyn4ever.services.goods.mapper.GoodsMapper;
-import cn.lyn4ever.services.goods.service.IGoodsService;
+import cn.lyn4ever.goods.web.mapper.GoodsMapper;
+import cn.lyn4ever.goods.web.service.IGoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
