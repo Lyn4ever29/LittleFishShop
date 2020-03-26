@@ -1,4 +1,4 @@
-package cn.lyn4ever.goods.web.services;
+package cn.lyn4ever.services.goods.service;
 
 import cn.lyn4ever.entity.TopAds;
 
@@ -7,7 +7,5 @@ import cn.lyn4ever.entity.TopAds;
  * @date 2020/3/25
  */
 public interface IGoodsService {
-
-    public TopAds getOne();
-
+    TopAds getOne();
 }
