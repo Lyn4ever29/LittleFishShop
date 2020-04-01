@@ -6,7 +6,6 @@ public class R extends HashMap<String,Object> {
 
     private String code;
     private String msg;
-    private Object data;
 
     private R() {
     }
@@ -60,21 +59,18 @@ public class R extends HashMap<String,Object> {
         return this;
     }
 
-    public Object getData() {
-        return data;
-    }
-
-    public R setData(Object data) {
-        this.data = data;
+    @Override
+    public R put(String key,Object value){
+        super.put(key,value);
         return this;
     }
+
 
     @Override
     public String toString() {
         return "R{" +
                 "code='" + code + '\'' +
                 ", msg='" + msg + '\'' +
-                ", data=" + data +
                 '}';
     }
 }
